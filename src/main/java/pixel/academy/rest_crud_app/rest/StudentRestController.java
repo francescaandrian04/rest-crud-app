@@ -35,7 +35,7 @@ public class StudentRestController {
     }
 
     // definim un endpoint ca sa afisam toti studentiinostri dupa index
-    @GetMapping("/student/{studentId}")
+    @GetMapping("/students/{studentId}")
     public Student getStudent(@PathVariable int studentId) {
 
         return theStudents.get(studentId);
