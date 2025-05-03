@@ -12,6 +12,7 @@ public class StudentErrorResponse {
         this.timeStamp = timeStamp;
     }
 
+    //getters
     public int getStatus() {
         return status;
     }
@@ -24,6 +25,7 @@ public class StudentErrorResponse {
         return timeStamp;
     }
 
+    // setters
     public void setStatus(int status) {
         this.status = status;
     }
@@ -34,6 +36,10 @@ public class StudentErrorResponse {
 
     public void setTimeStamp(long timeStamp) {
         this.timeStamp = timeStamp;
+    }
+
+    public StudentErrorResponse () {
+
     }
 
 }
